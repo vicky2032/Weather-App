@@ -1,0 +1,52 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+*{
+    margin:0 ;
+    box-sizing: border-box;
+font-family: poppins,sans-serif;
+text-align: center;
+
+}
+.container{
+    background-color: cornflowerblue;
+    padding: 50px;
+    border-radius: 10px;
+    margin: 100px 200px;
+
+}
+#heading{
+    color: black;
+}
+
+input[type="text"]{
+    margin-top: 8px;
+    height: 2rem;
+    width: 280px;
+    border-radius: 8px;
+    border: 2px solid white;
+    outline: none;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+input:focus{
+    background-color: white;
+    color: gray;
+    border-color: blue;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgb(68, 117, 80);
+}
+input[type="button"]{
+    height:3.2rem ;
+    width: 200px;
+    color:black;
+    font-size: 1.1rem;
+    outline: none;
+    cursor: pointer;
+}
+.result{
+    color: white;
+
+}
+
